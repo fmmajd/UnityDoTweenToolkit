@@ -14,5 +14,8 @@ There is an interface INBCommand, which is the base interface, and then there is
 
 In Animations folder, there are animation commands, tiny pieces of code for different common animation commands usually needed in a project.
 
+##Attention
+This toolkit was written for a 2D app, so if you wanna use them in 3D, you have to change animation constructors to accept z element az well.
+
 ##So what is "NB" used in the name of files, anyway?
 It's an abbr for the project I'm working on, and I'd be really happy if you change it in your code depending on your own project's name.
