@@ -9,7 +9,9 @@ As said in the book, a command object:
 
 ##What is this toolkit?
 These are some code I wrote for a project of mine, and specialized for Unity3d, and DOTween plugin for animations. 
+
 There is an interface INBCommand, which is the base interface, and then there is an INBAnimationCommand interface, derived from INBCommand, to use for animation commands. and then there is an abstract class, Nb_Animation, implementing basic methods. Every animation command is a subclass of this class.
+
 In Animations folder, there are animation commands, tiny pieces of code for different common animation commands usually needed in a project.
 
 ##So what is "NB" used in the name of files, anyway?
